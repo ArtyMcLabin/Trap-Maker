@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>499</width>
+    <height>361</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Trap-Maker</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QFrame#frame {background-image: url(:/resources/hqdefault.jpg);}</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QFrame" name="frame">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLabel" name="labelDebug">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>320</y>
+        <width>47</width>
+        <height>13</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>40</y>
+        <width>411</width>
+        <height>281</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; font-weight:600; color:#ffaa00;&quot;&gt;Shift&lt;/span&gt;&lt;span style=&quot; font-size:18pt; color:#ffaa00;&quot;&gt; = trap snares&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; font-weight:600; color:#ffaa00;&quot;&gt;Space &lt;/span&gt;&lt;span style=&quot; font-size:18pt; color:#ffaa00;&quot;&gt;= 808 bass kick&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; font-weight:600; color:#ffaa00;&quot;&gt;Q&lt;/span&gt;&lt;span style=&quot; font-size:18pt; color:#ffaa00;&quot;&gt; = toggle hats&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; font-weight:600; color:#ffaa00;&quot;&gt;W&lt;/span&gt;&lt;span style=&quot; font-size:18pt; color:#ffaa00;&quot;&gt; = trap hats&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; font-weight:600; color:#ffaa00;&quot;&gt;r&lt;/span&gt;&lt;span style=&quot; font-size:18pt; color:#ffaa00;&quot;&gt;/&lt;/span&gt;&lt;span style=&quot; font-size:18pt; font-weight:600; color:#ffaa00;&quot;&gt;l&lt;/span&gt;&lt;span style=&quot; font-size:18pt; text-decoration: underline; color:#ffaa00;&quot;&gt;arrows&lt;/span&gt;&lt;span style=&quot; font-size:18pt; color:#ffaa00;&quot;&gt; = hat full tempo step&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; font-weight:600; color:#ffaa00;&quot;&gt;u&lt;/span&gt;&lt;span style=&quot; font-size:18pt; color:#ffaa00;&quot;&gt;/&lt;/span&gt;&lt;span style=&quot; font-size:18pt; font-weight:600; color:#ffaa00;&quot;&gt;d&lt;/span&gt;&lt;span style=&quot; font-size:18pt; text-decoration: underline; color:#ffaa00;&quot;&gt;arrows&lt;/span&gt;&lt;span style=&quot; font-size:18pt; color:#ffaa00;&quot;&gt; =hat halftempo step&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; font-weight:600; color:#ffaa00;&quot;&gt;Alt &lt;/span&gt;&lt;span style=&quot; font-size:18pt; color:#ffaa00;&quot;&gt;= travel 808&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; color:#ffaa00;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

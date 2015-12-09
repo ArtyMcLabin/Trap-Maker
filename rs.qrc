@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>samples/808.wav</file>
+        <file>samples/808c.wav</file>
+        <file>samples/clap.wav</file>
+        <file>samples/cymbal.wav</file>
+        <file>samples/hat.wav</file>
+        <file>samples/hey.wav</file>
+        <file>samples/snare.wav</file>
+        <file>resources/hqdefault.jpg</file>
+    </qresource>
+</RCC>
